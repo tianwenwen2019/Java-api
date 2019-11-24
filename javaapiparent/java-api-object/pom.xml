@@ -11,7 +11,11 @@
     <packaging>jar</packaging>
     <artifactId>java-api-object</artifactId>
     <dependencies>
-
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-aether-provider</artifactId>
+            <version>3.0</version>
+        </dependency>
     </dependencies>
 
 
